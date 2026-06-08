@@ -5,7 +5,18 @@ O **SatConnect Rescue** é uma plataforma multiplataforma (Android, iOS e Web) d
 
 ---
 
-## Principais Funcionalidades
+## 👥 Integrantes do Grupo
+
+| Nome Completo | RM |
+| --- | --- |
+| Jonata Rafael | RM552939 |
+| Diogo Julio | RM553837 |
+| Larissa | RM552695 |
+| Beatriz Silva | RM553455 |
+
+---
+
+
 
 ### 1. Painel de Telemetria (Home)
 - **Risco Climatológico Automatizado**: Calcula o risco meteorológico (BAIXO, MÉDIO, ALTO) combinando velocidade do vento e índice de chuva obtidos na API do OpenWeatherMap.
