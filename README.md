@@ -111,14 +111,24 @@ Navegue até a pasta do projeto e execute:
 npm install
 ```
 
-### 2. Executar na Web (Navegador)
+### 2. Configurar a chave da API do OpenWeatherMap
+Por motivos de segurança, o GitHub bloqueia a publicação de chaves de API expostas no código. Para que a telemetria climática funcione corretamente no aplicativo, configure sua própria chave de API:
+
+1. Crie uma conta gratuita em [OpenWeatherMap](https://openweathermap.org/api) e obtenha uma chave de API.
+2. Crie um arquivo chamado `.env` na raiz do projeto (este arquivo já está configurado no `.gitignore`).
+3. Adicione a seguinte linha no arquivo `.env`, substituindo `SUA_CHAVE_AQUI` pela chave que você gerou:
+   ```env
+   EXPO_PUBLIC_OPENWEATHER_API_KEY=SUA_CHAVE_AQUI
+   ```
+
+### 3. Executar na Web (Navegador)
 Para rodar a versão otimizada para web usando a sidebar interativa com mapa OpenStreetMap:
 ```bash
 npm run web
 ```
 O aplicativo abrirá automaticamente no seu navegador em `http://localhost:8081` (ou na porta configurada).
 
-### 3. Executar no Mobile (Android ou iOS)
+### 4. Executar no Mobile (Android ou iOS)
 Para testar no seu celular físico através do aplicativo **Expo Go**:
 1. Instale o **Expo Go** na Google Play Store ou Apple App Store.
 2. Inicie o servidor do Expo:
